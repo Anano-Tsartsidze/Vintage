@@ -1,0 +1,234 @@
+/* main */
+.container {
+  padding: 2rem 0rem;
+}
+
+/* header */
+header[role="banner"]{}
+#logo-main{
+      display: block;
+      margin: 0 auto;
+      padding-left: 10px;
+    }
+  }
+
+ /* background */
+ .image{
+  position: relative;
+  float:right;
+  }
+  .nav-item{
+    font-family: 'Comfortaa', cursive;
+   
+  }
+  .nav-link{
+    color: black;
+  }
+  
+  .background{
+  margin-top: 10px;
+  border: 2px solid white;
+  background: -o-linear-gradient(top, #e4fde1 20%,#ffdc7c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #e4fde1),to(#ffdc7c));
+  background: linear-gradient(to bottom, #e4fde1 20%,#ffdc7c 100%);
+  padding:2px;
+  padding-left: 350px;
+  }
+  
+  .dynamic-bg{
+  top: 190px;
+  padding-left:20px;
+  float:left;
+  font-family: 'Comfortaa', cursive;
+  font-style: italic;
+  }
+  
+  .sale1{
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+  }
+  
+  .sale{
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  }
+  
+  .salebtn{
+    margin-top: 30px;
+    color: red;
+    margin-left: 70px;
+  }
+  
+  /* section2 */
+  .p{
+    
+  }
+  .sec2{
+    padding-top: 60px;
+    padding-bottom: 0;
+    top: 300px;
+  }
+  .img-fluida{
+    height:500px;
+    border:2px solid pink;
+    max-width: 100%;
+  
+  }
+  .img-fluid{
+    height:500px;
+    border:2px solid pink;
+    max-width: 100%;
+  
+  }
+  .img-fluid:hover{
+    background:  rgb(250, 236, 238);
+  }
+  
+  /* arrival */
+  
+  .arrival{
+    text-align: center;
+    padding-bottom:50px;
+    font-family: 'Comfortaa', cursive;
+   }
+  
+   .img-fluidx{
+     /* width: 250px; */
+     height: 300px;
+    margin-left: 80px;
+    margin-right: 5px;
+    border:2px solid pink;
+    padding: 10px;
+    max-width: 100%;
+  }
+  .img-fluidx:hover{
+    background:  rgb(250, 236, 238);
+  }
+  
+  .gallery{
+    height: 200px;
+  }
+  
+  /* About */
+  .about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .text{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .aboutp{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  /* section3 */
+   
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .nav-link{
+  text-align: end;
+  margin-right: 60px;
+  }
+  
+  .logo{
+    padding-left:30px;
+    padding-right: 50px;
+    width:150px;   
+  }
+  
+  .text{
+    margin-bottom: auto;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .shop{
+  height: 400px;
+  font-family: 'Comfortaa', cursive;
+  }
+  
+  .btn{
+    font-size: 17px;
+  }
+  .btn:hover{
+    background-color: sandybrown;
+    -webkit-transition-duration: 2s;
+         -o-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  
+  .list-inline{
+    padding-top: 20px;
+    padding-left: 0px;
+  
+  }
+  
+  .input-group{
+    padding-top:20px;
+  }
+  
+  .row{
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .page-footer{
+    background-color: rgb(250, 236, 238);
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .icon{
+  width:15px;
+  }
+  
+  .d-inline-block{
+    display: inline-block;
+  }
+  
+  /* end */
+  
+  @media (max-width: 990px) {
+  .sale1{
+    font-size:20px;
+    top:40px;
+  }
+  .sale{
+    display: none;
+    font-size: 20px;
+    padding-bottom: 2px;
+  }
+  .salebtn{
+    margin-top:0px;
+  }
+  
+  } 
+  
+  @media (max-width: 780px) {
+  .sale1{
+    display: none;
+    margin-top: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  }
+  .background{
+    display: none;
+  }
+  .c-container{
+    margin-top: 130px;
+  }
+  }
